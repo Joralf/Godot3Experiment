@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Block.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Angry Block.tscn" type="PackedScene" id=3]
 
 [node name="World" type="Node2D"]
 
@@ -93,31 +94,112 @@ position = Vector2( 504, 216 )
 position = Vector2( 486, 216 )
 
 [node name="Block40" parent="." instance=ExtResource( 1 )]
-position = Vector2( 594, 216 )
+position = Vector2( 333, -3 )
+rotation = 3.14159
 
 [node name="Block41" parent="." instance=ExtResource( 1 )]
-position = Vector2( 612, 216 )
+position = Vector2( 351, -3 )
+rotation = 3.14159
 
 [node name="Block42" parent="." instance=ExtResource( 1 )]
-position = Vector2( 630, 216 )
+position = Vector2( 369, -3 )
+rotation = 3.14159
 
 [node name="Block43" parent="." instance=ExtResource( 1 )]
-position = Vector2( 666, 216 )
+position = Vector2( 405, -3 )
+rotation = 3.14159
 
 [node name="Block205" parent="." instance=ExtResource( 1 )]
-position = Vector2( 702, 216 )
+position = Vector2( 441, -3 )
+rotation = 3.14159
 
 [node name="Block206" parent="." instance=ExtResource( 1 )]
-position = Vector2( 648, 216 )
+position = Vector2( 387, -3 )
+rotation = 3.14159
 
 [node name="Block207" parent="." instance=ExtResource( 1 )]
-position = Vector2( 684, 216 )
+position = Vector2( 423, -3 )
+rotation = 3.14159
 
 [node name="Block208" parent="." instance=ExtResource( 1 )]
-position = Vector2( 720, 216 )
+position = Vector2( 459, -3 )
+rotation = 3.14159
 
 [node name="Block209" parent="." instance=ExtResource( 1 )]
-position = Vector2( 738, 216 )
+position = Vector2( 477, -3 )
+rotation = 3.14159
+
+[node name="Block513" parent="." instance=ExtResource( 1 )]
+position = Vector2( 167, -11 )
+rotation = 3.14159
+
+[node name="Block514" parent="." instance=ExtResource( 1 )]
+position = Vector2( 185, -11 )
+rotation = 3.14159
+
+[node name="Block515" parent="." instance=ExtResource( 1 )]
+position = Vector2( 203, -11 )
+rotation = 3.14159
+
+[node name="Block516" parent="." instance=ExtResource( 1 )]
+position = Vector2( 239, -11 )
+rotation = 3.14159
+
+[node name="Block517" parent="." instance=ExtResource( 1 )]
+position = Vector2( 275, -11 )
+rotation = 3.14159
+
+[node name="Block518" parent="." instance=ExtResource( 1 )]
+position = Vector2( 221, -11 )
+rotation = 3.14159
+
+[node name="Block519" parent="." instance=ExtResource( 1 )]
+position = Vector2( 257, -11 )
+rotation = 3.14159
+
+[node name="Block520" parent="." instance=ExtResource( 1 )]
+position = Vector2( 293, -11 )
+rotation = 3.14159
+
+[node name="Block521" parent="." instance=ExtResource( 1 )]
+position = Vector2( 311, -11 )
+rotation = 3.14159
+
+[node name="Block522" parent="." instance=ExtResource( 1 )]
+position = Vector2( 6, -18 )
+rotation = 3.14159
+
+[node name="Block523" parent="." instance=ExtResource( 1 )]
+position = Vector2( 24, -18 )
+rotation = 3.14159
+
+[node name="Block524" parent="." instance=ExtResource( 1 )]
+position = Vector2( 42, -18 )
+rotation = 3.14159
+
+[node name="Block525" parent="." instance=ExtResource( 1 )]
+position = Vector2( 78, -18 )
+rotation = 3.14159
+
+[node name="Block526" parent="." instance=ExtResource( 1 )]
+position = Vector2( 114, -18 )
+rotation = 3.14159
+
+[node name="Block527" parent="." instance=ExtResource( 1 )]
+position = Vector2( 60, -18 )
+rotation = 3.14159
+
+[node name="Block528" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, -18 )
+rotation = 3.14159
+
+[node name="Block529" parent="." instance=ExtResource( 1 )]
+position = Vector2( 132, -18 )
+rotation = 3.14159
+
+[node name="Block530" parent="." instance=ExtResource( 1 )]
+position = Vector2( 150, -18 )
+rotation = 3.14159
 
 [node name="Block44" parent="." instance=ExtResource( 1 )]
 position = Vector2( 756, 189 )
@@ -1540,3 +1622,24 @@ position = Vector2( 315, 153 )
 
 [node name="Block39" parent="." instance=ExtResource( 1 )]
 position = Vector2( 333, 153 )
+
+[node name="Angry Block2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 390, 129 )
+
+[node name="Angry Block" parent="." instance=ExtResource( 3 )]
+position = Vector2( 366, 56 )
+
+[node name="Angry Block3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 118, 20 )
+
+[node name="Angry Block4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 149, 58 )
+
+[node name="Angry Block5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 170, 76 )
+
+[node name="Angry Block6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 65 )
+
+[node name="Angry Block7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 299, 79 )
