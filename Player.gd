@@ -1,7 +1,8 @@
 extends KinematicBody2D
 
 # CONSTANTS
-const speed = 300
+const max_x_speed = 1200
+const detla_x_acceleration = 1
 const gravity = 16
 const jump_velocity = 550
 const pound_velocity = 800
@@ -39,7 +40,7 @@ func apply_gravity():
 	velocity.y += gravity
 	
 func apply_acceleration(direction):
-	velocity.x = move_toward(velocity.x, speed * direction, 10)
+	velocity.x = move_toward(velocity.x, max_x_speed * direction, detla_x_acceleration)
 
 func get_jump_velocity(current_velocity):
 	return current_velocity.y - jump_velocity
