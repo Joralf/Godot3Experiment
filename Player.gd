@@ -3,7 +3,7 @@ extends KinematicBody2D
 
 # CONSTANTS
 const max_x_speed = 1200
-const detla_x_acceleration = 1
+const delta_x_acceleration = 1
 const gravity = 16
 const jump_velocity = 550
 const pound_velocity = 800
