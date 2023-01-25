@@ -17,6 +17,9 @@ func _physics_process(delta):
 	apply_gravity()
 	apply_acceleration(1)
 	
+	if (Input.is_action_just_pressed("ui_select")):
+		restart_game()
+			
 	if is_on_floor():
 		velocity.y = get_bounce_velocity(velocity)
 		jump_allowed = true
@@ -46,3 +49,6 @@ func get_pound_velocity(current_velocity):
 	
 func get_bounce_velocity(current_velocity):
 	return current_velocity.y * bounce_factor
+	
+func restart_game():
+	get_tree().reload_current_scene()
